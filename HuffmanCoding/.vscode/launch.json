@@ -1,0 +1,44 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "haiku1 encode",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/bin",
+      "mainClass": "algorithms.huffman.HuffCode",
+      "projectName": "A3-HuffmanCoding_9cd514ba",
+      "args": "haiku1.txt encode"
+    },
+    {
+      "type": "java",
+      "name": "haiku1 decode",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/bin",
+      "mainClass": "algorithms.huffman.HuffCode",
+      "projectName": "A3-HuffmanCoding_9cd514ba",
+      "args": "haiku1.txt decode"
+    },
+    {
+      "type": "java",
+      "name": "haiku2 encode",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/bin",
+      "mainClass": "algorithms.huffman.HuffCode",
+      "projectName": "A3-HuffmanCoding_9cd514ba",
+      "args": "haiku2.txt encode"
+    },
+    {
+      "type": "java",
+      "name": "haiku2 decode",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/bin",
+      "mainClass": "algorithms.huffman.HuffCode",
+      "projectName": "A3-HuffmanCoding_9cd514ba",
+      "args": "haiku2.txt decode"
+    }
+  ]
+}
